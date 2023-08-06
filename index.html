@@ -14,6 +14,7 @@
             body {
                 font-family: "Raleway", Arial, Helvetica, sans-serif;
             }
+
         </style>
         <header>
             <nav class="navbar navbar-light" style="background-color: #5EA174;">
@@ -25,13 +26,92 @@
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #E5E5E5;">Pesquisar</button>
                 </form>
             </nav>
-            <nav class="nav nav-pills nav-justified">
-                <a class="nav-item nav-link" href="#">INÍCIO</a>
-                <a class="nav-item nav-link" href="medicines.html">TODOS OS MEDICAMENTOS</a>
-                <a class="nav-item nav-link" href="contact.html">FALE CONOSCO</a>
-                <a class="nav-item nav-link" href="about.html">SOBRE NÓS</a>
+            <nav class="nav rounded-0 nav-justified">
+                <a class="nav-item nav-link active" href="#" style="background-color: #5EA174; color: #fff;"><b>INÍCIO</b></a>
+                <a class="nav-item nav-link" href="medicines.html" style="background-color:  #90C09F; color: #fff;"><b>TODOS OS MEDICAMENTOS</b></a>
+                <a class="nav-item nav-link" href="contact.html" style="background-color: #90C09F; color: #fff;"><b>FALE CONOSCO</b></a>
+                <a class="nav-item nav-link" href="about.html" style="background-color: #90C09F; color: #fff;"><b>SOBRE NÓS</b></a>
             </nav>
         </header>
+        <main>
+            <section class="banner">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://precopopular.vteximg.com.br/arquivos/ids/203719/BRU329_23%20Hidradeep%20Banner%20home%20desktop%201310x300.jpg?v=638264283595670000" alt="Primeiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://precopopular.vteximg.com.br/arquivos/ids/202889/banner_home_dermaclub2.jpg?v=638252136006470000" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://precopopular.vteximg.com.br/arquivos/ids/203726/AnticoncepcionaisHome.jpg?v=638264916932970000" alt="Terceiro Slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            </section>
+            <section class="best-sellers">
+                <h4><b>MAIS VENDIDOS</b></h4>
+                <div class="d-flex flex-row">
+                    <div class="card p-2 bd-highlight"" style="width: 18rem;">
+                        <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
+                        <div class="card-body">
+                          <h5 class="card-title">Poção Vermelha de Vida</h5>
+                          <p class="card-text"><strong>39,90</strong></p>
+                          <button href="#" class="btn btn-primary">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="card p-2 bd-highlight" style="width: 18rem;">
+                        <a>
+                        <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
+                        <div class="card-body">
+                          <h5 class="card-title">Poção Azul de Mana</h5>
+                          <p class="card-text"><strong>39,90</strong></p>
+                          <button href="#" class="btn btn-primary">Adicionar</button>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="card p-2 bd-highlight" style="width: 18rem;">
+                        <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
+                        <div class="card-body">
+                          <h5 class="card-title">Cinatiropa First-Aid Life Safe</h5>
+                          <p class="card-text"><strong>59,90</strong></p>
+                          <button href="#" class="btn btn-primary">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="card p-2 bd-highlight" style="width: 18rem;">
+                        <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
+                        <div class="card-body">
+                          <h5 class="card-title">Encantamento</h5>
+                          <p class="card-text"><strong>49,90</strong></p>
+                          <button href="#" class="btn btn-primary">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Nossa localização</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d438.5165793082493!2d-48.95657146355969!3d-28.445417882833617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9521455b45c06755%3A0x7314ce5656f6e409!2sFarm%C3%A1cia%20Pre%C3%A7o%20Popular!5e0!3m2!1spt-BR!2sbr!4v1691106291461!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="copyright">
+            Copyright &copy; 2023 Maria Vicente - Todos os direitos reservados.
+            </div>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </body>
