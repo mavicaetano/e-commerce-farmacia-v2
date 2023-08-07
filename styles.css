@@ -13,12 +13,27 @@ h4 {
     font-weight: bold;
 }
 
+.navbar {
+    border-bottom: 1px groove #0d6d52;
+}
+
 .navbar-brand {
     padding: 1rem 0 1rem 4rem;
 }
 
 .nav {
-    background-color: #a7ceb4;
+    background-color: #158e6b;
+    border-top: 1px groove #149671;
+    box-shadow: 0 4px 4px rgba(0,0,0,.05);
+}
+
+.navbar button {
+    border-radius: 100%;
+}
+
+.navbar button:hover {
+    background-color: #0d6d52;
+    opacity: 40%;
 }
 
 .nav a {
@@ -26,12 +41,13 @@ h4 {
 }
 
 nav .active{
-    background-color: #5EA174;
+    background-color: #0F7D5E;
+    border-top: none;
     color: #fff;
 }
 
 .nav-item:hover {
-    background-color: #90C09F;
+    background-color: #149c76;
 }
 
 .page-title {
@@ -51,6 +67,10 @@ nav .active{
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+
+.card:hover {
+    background-color: #f4f4f4;
 }
 
 .card-text {
