@@ -35,9 +35,12 @@
             <div class="page-title">
                 <h4>FALE CONOSCO</h4>
             </div>
+            <div class="contact-image">
+                <img src="/images/contactus.svg" alt="Fale conosco">
+            </div>
             <p>Preencha o formulário para entrar em contato com a nossa equipe.</p>
             <section class="form">
-                <form>
+                <form class="contact-form">
                     <div class="form-group">
                         <label for="inputName">Nome*</label>
                         <input type="text" class="form-control" id="inputName" placeholder="Digite seu nome">
@@ -62,15 +65,15 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Sua mensagem</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Informe os detalhes e informações adicionais"></textarea>
+                        <label for="textSuaMensagem">Sua mensagem</label>
+                        <textarea class="form-control" id="textSuaMensagem" rows="3" placeholder="Informe os detalhes e informações adicionais"></textarea>
                     </div>
                     <div class="form-group form-check">
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">Esta mensagem é sobre um orçamento</label>
                     </div>
                     <small id="formHelp" class="form-text text-muted">*Campo de preenchimento obrigatório.</small>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary" id="submitButton">Enviar</button>
                   </form>
             </section>
         </main>
