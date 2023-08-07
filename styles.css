@@ -12,7 +12,7 @@ main {
 }
 
 .nav {
-    background-color: #90C09F;
+    background-color: #a7ceb4;
 }
 
 .nav a {
@@ -22,6 +22,10 @@ main {
 nav .active{
     background-color: #5EA174;
     color: #fff;
+}
+
+.nav-item:hover {
+    background-color: #90C09F;
 }
 
 .cards {
