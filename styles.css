@@ -7,6 +7,10 @@ main {
     padding: 2rem 2rem 5rem 2rem;
 }
 
+.navbar-brand {
+    padding: 1rem 0 1rem 4rem;
+}
+
 .nav {
     background-color: #90C09F;
 }
