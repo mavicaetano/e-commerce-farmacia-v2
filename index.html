@@ -6,18 +6,13 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400&display=swap" rel="stylesheet">
         <title>DEVinPharma</title>
     </head>
     <body>
-        <style>
-            body {
-                font-family: "Raleway", Arial, Helvetica, sans-serif;
-            }
-
-        </style>
         <header>
-            <nav class="navbar navbar-light" style="background-color: #5EA174;">
+            <nav class="navbar" style="background-color: #5EA174;">
                 <a class="navbar-brand" href="#">
                     <img src="/images/logo.png" width="150" alt="Logo DEVinPharma">
                 </a>
@@ -27,10 +22,10 @@
                 </form>
             </nav>
             <nav class="nav rounded-0 nav-justified">
-                <a class="nav-item nav-link active" href="#" style="background-color: #5EA174; color: #fff;"><b>INÍCIO</b></a>
-                <a class="nav-item nav-link" href="medicines.html" style="background-color:  #90C09F; color: #fff;"><b>TODOS OS MEDICAMENTOS</b></a>
-                <a class="nav-item nav-link" href="contact.html" style="background-color: #90C09F; color: #fff;"><b>FALE CONOSCO</b></a>
-                <a class="nav-item nav-link" href="about.html" style="background-color: #90C09F; color: #fff;"><b>SOBRE NÓS</b></a>
+                <a class="nav-item nav-link active" href="#"><b>INÍCIO</b></a>
+                <a class="nav-item nav-link" href="medicines.html"><b>TODOS OS MEDICAMENTOS</b></a>
+                <a class="nav-item nav-link" href="contact.html"><b>FALE CONOSCO</b></a>
+                <a class="nav-item nav-link" href="about.html"><b>SOBRE NÓS</b></a>
             </nav>
         </header>
         <main>
@@ -64,40 +59,78 @@
             </section>
             <section class="best-sellers">
                 <h4><b>MAIS VENDIDOS</b></h4>
-                <div class="d-flex flex-row">
-                    <div class="card p-2 bd-highlight"" style="width: 18rem;">
-                        <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
-                        <div class="card-body">
-                          <h5 class="card-title">Poção Vermelha de Vida</h5>
-                          <p class="card-text"><strong>39,90</strong></p>
-                          <button href="#" class="btn btn-primary">Adicionar</button>
+                <div class="cards">
+                    <div class="card" style="width: 18rem; height: 28rem;">
+                        <div class="card-main">
+                            <a href="#">
+                                <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
+                                <div class="card-body">
+                                    <div class="product-name">
+                                        <h5 class="card-title">Poção Vermelha de Vida</h5>
+                                    </div>
+                                    <div class="price">
+                                        <p class="card-text">39,90</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="button-add">
+                            <button href="#" class="add-to-basket">Adicionar</button>
                         </div>
                     </div>
-                    <div class="card p-2 bd-highlight" style="width: 18rem;">
-                        <a>
-                        <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
-                        <div class="card-body">
-                          <h5 class="card-title">Poção Azul de Mana</h5>
-                          <p class="card-text"><strong>39,90</strong></p>
-                          <button href="#" class="btn btn-primary">Adicionar</button>
-                        </a>
+                    <div class="card" style="width: 18rem; height: 28rem;">
+                        <div class="card-main">
+                            <a href="#">
+                                <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
+                                <div class="card-body">
+                                    <div class="product-name">
+                                        <h5 class="card-title">Poção Azul de Mana</h5>
+                                    </div>
+                                    <div class="price">
+                                        <p class="card-text">39,90</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
+                        <div class="button-add">
+                            <button href="#" class="add-to-basket">Adicionar</button>
+                        </div>                        
                     </div>
-                    <div class="card p-2 bd-highlight" style="width: 18rem;">
-                        <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
-                        <div class="card-body">
-                          <h5 class="card-title">Cinatiropa First-Aid Life Safe</h5>
-                          <p class="card-text"><strong>59,90</strong></p>
-                          <button href="#" class="btn btn-primary">Adicionar</button>
+                    <div class="card" style="width: 18rem; height: 28rem;">
+                        <div class="card-main">
+                            <a href="#">
+                                <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
+                                <div class="card-body">
+                                    <div class="product-name">
+                                        <h5 class="card-title">Cinatiropa First-Aid Life Safe</h5>
+                                    </div>
+                                    <div class="price">
+                                    <p class="card-text">39,90</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
+                        <div class="button-add">
+                            <button href="#" class="add-to-basket">Adicionar</button>
+                        </div>                       
                     </div>
-                    <div class="card p-2 bd-highlight" style="width: 18rem;">
-                        <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
-                        <div class="card-body">
-                          <h5 class="card-title">Encantamento</h5>
-                          <p class="card-text"><strong>49,90</strong></p>
-                          <button href="#" class="btn btn-primary">Adicionar</button>
+                    <div class="card" style="width: 18rem; height: 28rem;">
+                        <div class="card-main">
+                            <a href="#">
+                                <img src="/images/generico.jpg" class="card-img-top" alt="Medicamento">
+                                <div class="card-body">
+                                    <div class="product-name">
+                                        <h5 class="card-title">Encantamento</h5>
+                                    </div>
+                                    <div class="price">
+                                        <p class="card-text">39,90</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
+                        <div class="button-add">
+                            <button href="#" class="add-to-basket">Adicionar</button>
+                        </div>                        
                     </div>
                 </div>
             </section>
