@@ -60,12 +60,6 @@ nav .active{
     justify-content: space-evenly;
 }
 
-.all-medicines {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
 .card {
     padding-bottom: 0;
     margin: 1%;
